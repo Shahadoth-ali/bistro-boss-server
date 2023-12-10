@@ -291,3 +291,10 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`Bistro boss is sitting on port ${port}`);
 })
+
+  // "builds": [
+    //     {
+    //         "src": "./index.js",
+    //         "use": "@vercel/node"
+    //     }
+    // ],
